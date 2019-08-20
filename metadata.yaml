@@ -1,0 +1,19 @@
+type: application
+owners:
+  - sre-observability@scout24.com
+product: chaos-monkey
+id: simian-army
+vertical: as24
+name: Simian Army (aka Chaos Monkey)
+description: |
+  AutoScout24 fork of Netflix's SimianArmy, a resiliency tool that helps ensure that your applications can tolerate random instance failures.
+confidentiality: company-internal
+integrity: false
+availability: false
+exposure: platform
+lifecycle: maintenance
+tags:
+  - chaos
+  - monkey
+  - simian
+  - army
