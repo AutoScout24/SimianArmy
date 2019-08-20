@@ -10,7 +10,8 @@ description: |
 confidentiality: company-internal
 integrity: false
 availability: false
-exposure: platform
+exposure:
+  - platform
 lifecycle: maintenance
 tags:
   - chaos
